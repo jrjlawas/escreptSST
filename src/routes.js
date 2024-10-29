@@ -39,8 +39,6 @@ Coded by www.creative-tim.com
 // @mui material components
 import Icon from "@mui/material/Icon";
 
-// @mui icons
-import GitHubIcon from "@mui/icons-material/GitHub";
 
 // Pages
 import AboutUs from "layouts/pages/landing-pages/about-us";
@@ -263,12 +261,7 @@ const routes = [
         href: "https://www.creative-tim.com/learning-lab/react/datepicker/material-kit/",
       },
     ],
-  },
-  {
-    name: "github",
-    icon: <GitHubIcon />,
-    href: "https://www.github.com/creativetimofficial/material-kit-react",
-  },
+  }
 ];
 
 export default routes;

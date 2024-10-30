@@ -8,20 +8,20 @@ import YouTubeIcon from "@mui/icons-material/YouTube";
 import MKTypography from "components/MKTypography";
 
 // Images
-import logoCT from "assets/images/logo-ct-dark.png";
+import escreptLogo from "assets/images/escreptico/icon.png"
 
 const date = new Date().getFullYear();
-
+// eslint-disable-next-line
 export default {
   brand: {
     name: "ESCRept SST",
-    image: logoCT,
+    image: escreptLogo,
     route: "/",
   },
   socials: [
     {
       icon: <FacebookIcon />,
-      link: "https://www.facebook.com/CreativeTim/",
+      link: "https://www.facebook.com/profile.php?id=61562082383228",
     },
     {
       icon: <TwitterIcon />,

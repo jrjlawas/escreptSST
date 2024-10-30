@@ -90,7 +90,7 @@ function Home() {
               Find us on
             </MKTypography>
             <MKBox display="flex" justifyContent="center" alignItems="center">
-              <MKTypography component="a" variant="body1" color="white" href="#" mr={3}>
+              <MKTypography component="a" variant="body1" color="white" href="https://www.facebook.com/profile.php?id=61562082383228" mr={3}>
                 <i className="fab fa-facebook" />
               </MKTypography>
               <MKTypography component="a" variant="body1" color="white" href="#">

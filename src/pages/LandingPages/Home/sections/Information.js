@@ -35,8 +35,10 @@ function Information() {
                 <MKBox mb={5}>
                   <DefaultInfoCard
                     icon="public"
-                    title="Fully integrated"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title="Innovative Edge"
+                    description="Our team is dedicated to bringing fresh, 
+                                 innovative ideas to the table, helping you stay ahead in a 
+                                 rapidly evolving technological landscape."
                   />
                 </MKBox>
               </Grid>
@@ -44,8 +46,8 @@ function Information() {
                 <MKBox mb={5}>
                   <DefaultInfoCard
                     icon="payments"
-                    title="Payments functionality"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title="Cost-Effective Solutions"
+                    description="We offer high-quality services at competitive prices provides clients with excellent value for their investment."
                   />
                 </MKBox>
               </Grid>
@@ -53,8 +55,8 @@ function Information() {
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
                     icon="apps"
-                    title="Prebuilt components"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title="Tailored Solutions"
+                    description="We tailor solutions to meet each client’s unique goals and challenges, ensuring you get exactly what you need to succeed."
                   />
                 </MKBox>
               </Grid>
@@ -62,8 +64,9 @@ function Information() {
                 <MKBox mb={{ xs: 5, md: 0 }}>
                   <DefaultInfoCard
                     icon="3p"
-                    title="Improved platform"
-                    description="We get insulted by others, lose trust for those We get back freezes"
+                    title="Comprehensive Support"
+                    description="From consultation to implementation and beyond, 
+                                 we provide end-to-end support to ensure your success."
                   />
                 </MKBox>
               </Grid>
@@ -72,8 +75,8 @@ function Information() {
           <Grid item xs={12} lg={4} sx={{ ml: "auto", mt: { xs: 3, lg: 0 } }}>
             <CenteredBlogCard
               image="https://images.unsplash.com/photo-1544717302-de2939b7ef71?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1950&q=80"
-              title="Get insights on Search"
-              description="Website visitors today demand a frictionless user expericence — especially when using search. Because of the hight standards."
+              title="Our Company"
+              description="ESCRept Software Solution Team is a forward-thinking IT Company committed to delivering exceptional IT-related services and consultancy at reasonable prices."
               action={{
                 type: "internal",
                 route: "pages/company/about-us",

@@ -27,7 +27,7 @@ import HorizontalTeamCard from "examples/Cards/TeamCards/HorizontalTeamCard";
 // Images
 
 import jerrods from "assets/images/team/jerrods.jpg";
-import jay from "assets/images/team/jay.JPG";
+import jay from "assets/images/team/jrlawas.jpg";
 
 function Team() {
   return (

@@ -56,17 +56,17 @@ function Team() {
             <MKBox mb={1}>
               <HorizontalTeamCard
                 image={jerrods}
-                name="Jhonree V. Rodriguez"
+                name="Jhonree Rodriguez"
                 position={{ color: "info", label: "CEO and Founder" }}
                 description="With over 10 years of experience, Jhonree Rodriguez leads ESCRept with a commitment to delivering high-quality, innovative software solutions. Under his leadership, ESCRept has grown to meet the evolving needs of clients across industries."
               />
             </MKBox>
           </Grid>
           <Grid item xs={12} lg={6}>
-            <MKBox mb={{ xs: 1, lg: 0 }}>
+            <MKBox mb={1}>
               <HorizontalTeamCard
                 image={jay}
-                name="Jay Romel J. Lawas"
+                name="Jay Romel Lawas"
                 position={{ color: "info", label: "Technical Lead Developer" }}
                 description="With 7 years in the industry, Jay Romel Lawas leads Software Development Life Cycle processes and offers strategic technology consultations. His focus on innovation and quality solutions has made him a trusted resource for clients across industries."
               />

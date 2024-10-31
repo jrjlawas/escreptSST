@@ -35,7 +35,7 @@ import routes from "routes";
 import footerRoutes from "footer.routes";
 
 // Images
-import bgImage from "assets/images/bg-about-us.jpg";
+import bgMain from "assets/images/escreptico/BG1.jpg";
 
 function Home() {
   return (
@@ -53,7 +53,7 @@ function Home() {
             `${linearGradient(
               rgba(gradients.dark.main, 0.6),
               rgba(gradients.dark.state, 0.6)
-            )}, url(${bgImage})`,
+            )}, url(${bgMain})`,
           backgroundSize: "cover",
           backgroundPosition: "center",
           display: "grid",

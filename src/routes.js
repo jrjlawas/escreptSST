@@ -38,7 +38,9 @@ Coded by www.creative-tim.com
 
 
 // Pages
-import AboutUs from "layouts/pages/landing-pages/about-us";
+import AboutUsPage from "layouts/pages/landing-pages/about";
+import Team from "layouts/pages/landing-pages/team";
+import ContactUs from "layouts/pages/landing-pages/contact-us";
 
 const routes = [
   {
@@ -50,27 +52,31 @@ const routes = [
         name: "Why ESCRept",
         collapse: [
           {
-            name: "About Us",
+            name: "Our Company",
             route: "/pages/landing-pages/home",
-            component: <AboutUs />,
+            component: <AboutUsPage />,
+          },
+          {
+            name: "Our Team",
+            route: "/pages/landing-pages/team",
+            component: <Team />,
           },
           {
             name: "Our Approach",
-            route: "/pages/landing-pages/about-us",
-            component: <AboutUs />,
+            route: "/pages/landing-pages/home",
+            component: <AboutUsPage />,
           },
         ],
       },
     ],
   },
-
   {
     name: "Our Services",
     collapse: [
       {
         name: "IT Consultancy",
         description: "We offer expert guidance to optimize your IT infrastructure and align it with your business objectives.",
-        href: "https://www.creative-tim.com/learning-lab/react/quick-start/material-kit/",
+        href: "/pages/landing-pages/home",
       },
       {
         name: "Web Development",
@@ -83,6 +89,11 @@ const routes = [
         href: "https://www.creative-tim.com/learning-lab/react/quick-start/material-kit/",
       },
     ],
+  },
+  {
+    name: "contact us",
+    route: "/pages/landing-pages/contact-us",
+    component: <ContactUs />
   }
 ];
 

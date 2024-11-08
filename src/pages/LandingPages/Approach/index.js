@@ -2,32 +2,29 @@
 
 // Material Kit 2 React components
 import MKBox from "components/MKBox";
-
 // Material Kit 2 React examples
 import DefaultNavbar from "examples/Navbars/DefaultNavbar";
 import DefaultFooter from "examples/Footers/DefaultFooter";
-import footerRoutes from "footer.routes";
-
-import Header from "pages/LandingPages/About/sections/Header";
-import Information from "pages/LandingPages/About/sections/Information";
-
-
+// Routes
 import routes from "routes";
-
-function About() {
-    return (
-      <>
+import footerRoutes from "footer.routes";
+import Header from "pages/LandingPages/Approach/sections/Header";
+import Content from "pages/LandingPages/Approach/sections/Content";
+function Approach() {
+  return (
+    <>
       <DefaultNavbar
         routes={routes}
         transparent
         light
       />
-        <Header/>
-        <Information/>
+      <Header/>
+      <Content/>
       <MKBox pt={6} px={1} mt={6}>
         <DefaultFooter content={footerRoutes} />
       </MKBox>
-      </>
-    );
+    </>
+  );
 }
-export default About;
+
+export default Approach;

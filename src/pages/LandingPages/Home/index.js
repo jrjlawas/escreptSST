@@ -28,7 +28,6 @@ import DefaultFooter from "examples/Footers/DefaultFooter";
 
 // About Us page sections
 import Information from "pages/LandingPages/Home/sections/Information";
-import Team from "pages/LandingPages/Home/sections/Team";
 
 // Routes
 import routes from "routes";

@@ -30,7 +30,7 @@ import Thankyou from "pages/LandingPages/ContactUs/sections/Thankyou";
 
 function Contact() {
 
-  const [state, handleSubmit, reset] = useForm('xanyoddl');
+  const [state, handleSubmit] = useForm('xanyoddl');
   if (state.succeeded) {
     return <Thankyou/>;
 }

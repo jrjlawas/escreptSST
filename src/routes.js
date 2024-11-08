@@ -41,6 +41,7 @@ Coded by www.creative-tim.com
 import AboutUsPage from "layouts/pages/landing-pages/about";
 import Team from "layouts/pages/landing-pages/team";
 import ContactUs from "layouts/pages/landing-pages/contact-us";
+import ApproachPage from "layouts/pages/landing-pages/approach";
 
 const routes = [
   {
@@ -63,8 +64,8 @@ const routes = [
           },
           {
             name: "Our Approach",
-            route: "/pages/landing-pages/home",
-            component: <AboutUsPage />,
+            route: "/pages/landing-pages/approach",
+            component: <ApproachPage />,
           },
         ],
       },
